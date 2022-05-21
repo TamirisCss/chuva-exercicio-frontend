@@ -1,0 +1,89 @@
+@use "variables" as v;
+
+.video-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  h3 {
+    width: 65%;
+    color: v.$primary-text-color;
+    font-family: v.$primary-font;
+  }
+  .buttons {
+    display: flex;
+    gap: 5px;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 31px;
+      width: 43px;
+      background: v.$primary-text-color;
+      color: #fff;
+    }
+    .download-btn {
+      width: 120px;
+      img {
+        margin-right: 5px;
+      }
+    }
+    img {
+      width: 19px;
+      height: 19px;
+    }
+  }
+  p {
+    color: v.$primary-text-color;
+    font-family: v.$primary-font;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+}
+
+.video-presentation {
+  display: flex;
+  gap: 2rem;
+  .video-img {
+    img {
+      width: 100%;
+    }
+  }
+  .details-painel {
+    width: 242px;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    h3 {
+      font-family: v.$primary-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 25px;
+      color: #4e4e4e;
+      background-color: v.$bg-color;
+      padding: 0.5rem 0 0.5rem 1rem;
+      border-bottom: 1px solid #ececec;
+    }
+  }
+  .painel-texts {
+    padding: 1rem;
+    line-height: 1.8;
+    height: 364px;
+    overflow-y: scroll;
+    p {
+      font-family: v.$secondary-font;
+      font-size: 0.75rem;
+      letter-spacing: 0.02em;
+      color: v.$text-color-light;
+      span {
+        font-weight: bold;
+      }
+    }
+    .text1 {
+      margin-bottom: 1.5rem;
+    }
+    .text2 {
+      margin-bottom: 2rem;
+    }
+  }
+}

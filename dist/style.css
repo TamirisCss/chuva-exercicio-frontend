@@ -12,12 +12,22 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
 }
 
 .main-container {
   width: 85%;
+}
+
+.content {
+  padding: 1rem 2rem;
 }
 
 .side-navbar-container {
@@ -150,4 +160,89 @@ a {
   .header-infos .header-lenguage {
     align-self: flex-end;
   }
+}
+.video-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.video-title h3 {
+  width: 65%;
+  color: rgb(237, 120, 57);
+  font-family: "Roboto";
+}
+.video-title .buttons {
+  display: flex;
+  gap: 5px;
+}
+.video-title .buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
+  width: 43px;
+  background: rgb(237, 120, 57);
+  color: #fff;
+}
+.video-title .buttons .download-btn {
+  width: 120px;
+}
+.video-title .buttons .download-btn img {
+  margin-right: 5px;
+}
+.video-title .buttons img {
+  width: 19px;
+  height: 19px;
+}
+.video-title p {
+  color: rgb(237, 120, 57);
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.video-presentation {
+  display: flex;
+  gap: 2rem;
+}
+.video-presentation .video-img img {
+  width: 100%;
+}
+.video-presentation .details-painel {
+  width: 242px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+.video-presentation .details-painel h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 25px;
+  color: #4e4e4e;
+  background-color: rgb(253, 241, 235);
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-bottom: 1px solid #ececec;
+}
+.video-presentation .painel-texts {
+  padding: 1rem;
+  line-height: 1.8;
+  height: 364px;
+  overflow-y: scroll;
+}
+.video-presentation .painel-texts p {
+  font-family: "Quicksand";
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: #5C5C5C;
+}
+.video-presentation .painel-texts p span {
+  font-weight: bold;
+}
+.video-presentation .painel-texts .text1 {
+  margin-bottom: 1.5rem;
+}
+.video-presentation .painel-texts .text2 {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=style.css.map */
