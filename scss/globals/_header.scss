@@ -1,7 +1,7 @@
 @use "variables" as v;
 .header {
   background-color: v.$bg-color;
-  height: 68px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,11 +15,11 @@
       font-weight: 400;
     }
     p {
-      font-size: 14px;
+      font-size: 0.9rem;
       line-height: 16px;
     }
     h3 {
-      font-size: 22px;
+      font-size: 1.3rem;
       line-height: 26px;
     }
   }
@@ -32,7 +32,7 @@
     border: 1px solid #cccccc;
     border-radius: 3px;
     span {
-      font-size: 14px;
+      font-size: 0.9rem;
       font-family: v.$secondary-font;
     }
   }
@@ -43,12 +43,12 @@
       font-family: v.$secondary-font;
       font-style: normal;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 0.9rem;
       line-height: 18px;
       text-align: end;
       color: #333333;
       span {
-        font-size: 12px;
+        font-size: 0.75rem;
         line-height: 15px;
       }
     }
@@ -62,7 +62,7 @@
             top: -7%;
             right: -7%;
             background-color: #F85959;
-            font-size: 10px;
+            font-size: 0.65rem;
             color: #FFFFFF;
             border-radius: 50%;
             width: 12px;

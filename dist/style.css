@@ -25,11 +25,11 @@ a {
 }
 .side-navbar-container .side-navbar-logo {
   background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
-  height: 68px;
+  height: 10vh;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.9rem;
   line-height: 35px;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@ a {
   width: 100%;
 }
 .side-navbar-container ul li {
-  height: 33px;
+  height: 2.1rem;
   display: flex;
   border-bottom: 2px solid #e5e5e5;
   transition: all 0.3s ease;
@@ -52,7 +52,7 @@ a {
   color: rgb(114, 92, 92);
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 19px;
   align-self: center;
 }
@@ -63,7 +63,7 @@ a {
 
 .header {
   background-color: rgb(253, 241, 235);
-  height: 68px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,11 +77,11 @@ a {
   font-weight: 400;
 }
 .header .header-text p {
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 16px;
 }
 .header .header-text h3 {
-  font-size: 22px;
+  font-size: 1.3rem;
   line-height: 26px;
 }
 .header .header-lenguage {
@@ -94,7 +94,7 @@ a {
   border-radius: 3px;
 }
 .header .header-lenguage span {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-family: "Quicksand";
 }
 .header .header-profile {
@@ -105,13 +105,13 @@ a {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 18px;
   text-align: end;
   color: #333333;
 }
 .header .header-profile .profile-infos span {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 15px;
 }
 .header .header-profile .profile-picture {
@@ -125,7 +125,7 @@ a {
   top: -7%;
   right: -7%;
   background-color: #F85959;
-  font-size: 10px;
+  font-size: 0.65rem;
   color: #FFFFFF;
   border-radius: 50%;
   width: 12px;
