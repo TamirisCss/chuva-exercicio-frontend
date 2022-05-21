@@ -2,7 +2,7 @@
 .side-navbar-container {
   width: 15%;
   .side-navbar-logo {
-    background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+    background: v.$linear-gradient;
     height: 68px;
     font-family: v.$primary-font;
     font-style: normal;
@@ -23,6 +23,7 @@
       height: 33px;
       display: flex;
       border-bottom: 2px solid #e5e5e5;
+      transition: all 0.3s ease;
       a {
         margin-left: 1rem;
         font-family: v.$secondary-font;
@@ -32,6 +33,10 @@
         font-size: 15px;
         line-height: 19px;
         align-self: center;
+      }
+      &:hover {
+        background-color: v.$bg-color;
+        border-left: 3px solid v.$primary-text-color;
       }
     }
   }

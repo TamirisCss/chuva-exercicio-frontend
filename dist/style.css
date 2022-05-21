@@ -44,6 +44,7 @@ a {
   height: 33px;
   display: flex;
   border-bottom: 2px solid #e5e5e5;
+  transition: all 0.3s ease;
 }
 .side-navbar-container ul li a {
   margin-left: 1rem;
@@ -54,6 +55,10 @@ a {
   font-size: 15px;
   line-height: 19px;
   align-self: center;
+}
+.side-navbar-container ul li:hover {
+  background-color: rgb(253, 241, 235);
+  border-left: 3px solid rgb(237, 120, 57);
 }
 
 .header {
