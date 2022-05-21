@@ -63,8 +63,72 @@ a {
 
 .header {
   background-color: rgb(253, 241, 235);
+  height: 68px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.header .header-text p,
+.header .header-text h3 {
+  font-family: "Roboto";
+  color: rgb(114, 92, 92);
+  font-style: normal;
+  font-weight: 400;
+}
+.header .header-text p {
+  font-size: 14px;
+  line-height: 16px;
+}
+.header .header-text h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+.header .header-lenguage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 97px;
+  height: 34px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+.header .header-lenguage span {
+  font-size: 14px;
+  font-family: "Quicksand";
 }
 .header .header-profile {
   display: flex;
+  gap: 0.8rem;
+}
+.header .header-profile .profile-infos {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: end;
+  color: #333333;
+}
+.header .header-profile .profile-infos span {
+  font-size: 12px;
+  line-height: 15px;
+}
+.header .header-profile .profile-picture {
+  position: relative;
+}
+.header .header-profile .profile-picture img {
+  border-radius: 50%;
+}
+.header .header-profile .profile-picture span {
+  position: absolute;
+  top: -7%;
+  right: -7%;
+  background-color: #F85959;
+  font-size: 10px;
+  color: #FFFFFF;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
