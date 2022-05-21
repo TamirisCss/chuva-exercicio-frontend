@@ -3,9 +3,14 @@
   background-color: v.$bg-color;
   height: 10vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  .header-infos {
+    display: flex;
+    gap: 1rem;
+  }
   .header-text {
     p,
     h3 {
@@ -38,7 +43,7 @@
   }
   .header-profile {
     display: flex;
-    gap: 0.80rem;
+    gap: 0.8rem;
     .profile-infos {
       font-family: v.$secondary-font;
       font-style: normal;
@@ -53,22 +58,37 @@
       }
     }
     .profile-picture {
-        position: relative;
-        img {
-            border-radius: 50%;
-        }
-        span {
-            position: absolute;
-            top: -7%;
-            right: -7%;
-            background-color: #F85959;
-            font-size: 0.65rem;
-            color: #FFFFFF;
-            border-radius: 50%;
-            width: 12px;
-            height: 12px;
-            text-align: center;
-        }
+      position: relative;
+      img {
+        border-radius: 50%;
+      }
+      span {
+        position: absolute;
+        top: -7%;
+        right: -7%;
+        background-color: #f85959;
+        font-size: 0.65rem;
+        color: #ffffff;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .header-text {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  .header-infos {
+    flex-direction: column;
+    .header-lenguage {
+      align-self: flex-end;
     }
   }
 }

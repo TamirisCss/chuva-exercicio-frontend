@@ -65,9 +65,14 @@ a {
   background-color: rgb(253, 241, 235);
   height: 10vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+}
+.header .header-infos {
+  display: flex;
+  gap: 1rem;
 }
 .header .header-text p,
 .header .header-text h3 {
@@ -124,11 +129,25 @@ a {
   position: absolute;
   top: -7%;
   right: -7%;
-  background-color: #F85959;
+  background-color: #f85959;
   font-size: 0.65rem;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 50%;
   width: 12px;
   height: 12px;
   text-align: center;
+}
+
+@media screen and (max-width: 1170px) {
+  .header-text {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 923px) {
+  .header-infos {
+    flex-direction: column;
+  }
+  .header-infos .header-lenguage {
+    align-self: flex-end;
+  }
 }/*# sourceMappingURL=style.css.map */
