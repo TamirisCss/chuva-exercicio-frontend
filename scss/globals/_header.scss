@@ -1,0 +1,8 @@
+@use 'variables' as v;
+.header {
+    background-color: v.$bg-color;
+    display: flex;
+    .header-profile {
+        display: flex;
+    }
+}

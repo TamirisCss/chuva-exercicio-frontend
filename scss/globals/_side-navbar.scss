@@ -1,0 +1,38 @@
+@use "variables" as v;
+.side-navbar-container {
+  width: 15%;
+  .side-navbar-logo {
+    background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+    height: 68px;
+    font-family: v.$primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  .side-navbar-img {
+    width: 100%;
+  }
+  ul {
+    li {
+      height: 33px;
+      display: flex;
+      border-bottom: 2px solid #e5e5e5;
+      a {
+        margin-left: 1rem;
+        font-family: v.$secondary-font;
+        color: v.$secondary-text-color;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        align-self: center;
+      }
+    }
+  }
+}
