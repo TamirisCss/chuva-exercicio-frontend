@@ -14,7 +14,16 @@ a {
 }
 
 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  background: v.$primary-text-color;
+  color: #fff;
+  img {
+    width: 19px;
+    height: 19px;
+  }
 }

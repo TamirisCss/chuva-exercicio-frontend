@@ -14,23 +14,14 @@
     display: flex;
     gap: 5px;
     button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       height: 31px;
       width: 43px;
-      background: v.$primary-text-color;
-      color: #fff;
     }
     .download-btn {
       width: 120px;
       img {
         margin-right: 5px;
       }
-    }
-    img {
-      width: 19px;
-      height: 19px;
     }
   }
   p {
@@ -43,6 +34,7 @@
 
 .video-presentation {
   display: flex;
+  flex-basis: 100%;
   gap: 2rem;
   .video-img {
     img {
