@@ -4,5 +4,27 @@ const readMoreBtn = document.querySelector("#read-more");
 readMoreBtn.addEventListener("click", () => {
   document.querySelector(".read-more-text").style.display = "block";
   readMoreBtn.style.display = "none";
-  console.log("hello");
+});
+
+//create and send topic
+const createTopicBtn = document.querySelector(".share-idea-btn");
+const createTopic = document.querySelector(".create-topic");
+const shareIdeas = document.querySelector(".share-ideas");
+const submitBtn = document.querySelector(".submitBtn");
+const topicSent = document.querySelector(".topic-sent");
+const newTopicBtn = document.querySelector(".newTopicBtn");
+
+createTopicBtn.addEventListener("click", () => {
+  createTopic.style.display = "flex";
+  shareIdeas.style.display = "none";
+});
+
+submitBtn.addEventListener("click", () => {
+  topicSent.style.display = "block";
+  createTopic.style.display = "none";
+});
+
+newTopicBtn.addEventListener("click", () => {
+  createTopic.style.display = "flex";
+  topicSent.style.display = "none";
 });
