@@ -336,6 +336,131 @@ button img {
   margin-right: 5px;
 }
 
+.create-topic {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  padding: 1rem;
+}
+.create-topic p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18px;
+  text-align: center;
+  color: #5C5C5C;
+  margin-bottom: 1rem;
+}
+.create-topic label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgb(237, 120, 57);
+}
+.create-topic input {
+  padding: 0.5rem 0rem 0.5rem 1.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+.create-topic textarea {
+  border: 1px solid #cccccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 0.5rem;
+  outline: none;
+}
+.create-topic .btn-area {
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  background: #eaf1f2;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create-topic .btn-area .btn-area-icons img {
+  margin-left: 1.5rem;
+}
+.create-topic .btn-area img {
+  width: 13px;
+  height: 10px;
+}
+.create-topic .btn-area button {
+  width: 205px;
+  height: 31px;
+  border-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+
+.topic-sent {
+  display: none;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 1rem 0;
+}
+.topic-sent .topic-sent-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #ececec;
+}
+.topic-sent h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 21px;
+  margin-bottom: 1rem;
+  color: rgb(237, 120, 57);
+}
+.topic-sent p {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 19px;
+  color: #595959;
+  margin-bottom: 1.5rem;
+}
+.topic-sent a {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 137.5%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: rgb(237, 120, 57);
+}
+.topic-sent button {
+  position: absolute;
+  bottom: -15px;
+  height: 32px;
+  width: 235px;
+}
+.topic-sent .success-sent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(221, 221, 221, 0.7882352941);
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+.topic-sent .success-sent img {
+  width: 30px;
+  height: 24px;
+}
+
 .card-topic {
   border: 1px solid #ececec;
   border-radius: 4px;
