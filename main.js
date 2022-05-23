@@ -8,11 +8,18 @@ readMoreBtn.addEventListener("click", () => {
 
 //create and send topic
 const createTopicBtn = document.querySelector(".share-idea-btn");
+const submitBtn = document.querySelector(".submitBtn");
+const newTopicBtn = document.querySelector(".newTopicBtn");
+
 const createTopic = document.querySelector(".create-topic");
 const shareIdeas = document.querySelector(".share-ideas");
-const submitBtn = document.querySelector(".submitBtn");
 const topicSent = document.querySelector(".topic-sent");
-const newTopicBtn = document.querySelector(".newTopicBtn");
+
+const inputCreateTopic = document.querySelector("#input-create-topic");
+const textArea = document.querySelector("#text-area");
+
+console.log(inputCreateTopic);
+console.log(textArea);
 
 createTopicBtn.addEventListener("click", () => {
   createTopic.style.display = "flex";
@@ -20,8 +27,14 @@ createTopicBtn.addEventListener("click", () => {
 });
 
 submitBtn.addEventListener("click", () => {
-  topicSent.style.display = "block";
-  createTopic.style.display = "none";
+  if (inputCreateTopic.value.length > 0 && textArea.value.length > 0) {
+    topicSent.style.display = "block";
+    createTopic.style.display = "none";
+  } else {
+    alert("Assunto ou conteúdo estão vazios");
+  }
+  inputCreateTopic.value = "";
+  textArea.value = "";
 });
 
 newTopicBtn.addEventListener("click", () => {
