@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: "Quicksand";
+  font-style: normal;
+}
+
 button {
   display: flex;
   align-items: center;
@@ -234,7 +239,6 @@ button img {
   overflow-y: scroll;
 }
 .video-presentation .painel-texts p {
-  font-family: "Quicksand";
   font-size: 0.75rem;
   letter-spacing: 0.02em;
   color: #5C5C5C;
@@ -343,8 +347,6 @@ button img {
   padding: 1rem;
 }
 .create-topic p {
-  font-family: "Quicksand";
-  font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 18px;
@@ -421,8 +423,6 @@ button img {
   color: rgb(237, 120, 57);
 }
 .topic-sent p {
-  font-family: "Quicksand";
-  font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 19px;
@@ -484,8 +484,6 @@ button img {
   color: #5C5C5C;
 }
 .card-topic p {
-  font-family: "Quicksand";
-  font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 18px;
@@ -514,6 +512,9 @@ button img {
 }
 
 .card-topic-expand {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  margin: 0 1rem 1rem 1rem;
+  border-radius: 4px;
   display: none;
 }
 .card-topic-expand .card-answer {
@@ -522,8 +523,6 @@ button img {
   padding: 1rem 1rem 2rem 1rem;
 }
 .card-topic-expand .card-answer p {
-  font-family: "Quicksand";
-  font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 18px;
@@ -569,7 +568,6 @@ button img {
   border-top: 1px solid #ececec;
 }
 .footer p {
-  font-family: "Quicksand";
   font-size: 0.75rem;
   color: #5C5C5C;
   line-height: 23px;
