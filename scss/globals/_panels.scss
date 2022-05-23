@@ -30,9 +30,15 @@
     color: v.$text-color-light;
     line-height: 23px;
     padding: 1rem;
-    span {
+    #read-more {
       font-weight: bold;
+      color: v.$primary-text-color;
+      cursor: pointer;
     }
+  }
+  //collapse text
+  .read-more-text {
+    display: none;
   }
 }
 

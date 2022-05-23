@@ -281,8 +281,13 @@ button img {
   line-height: 23px;
   padding: 1rem;
 }
-.summary-panel p span {
+.summary-panel p #read-more {
   font-weight: bold;
+  color: rgb(237, 120, 57);
+  cursor: pointer;
+}
+.summary-panel .read-more-text {
+  display: none;
 }
 
 .discussions-panel .share-ideas {
