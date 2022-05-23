@@ -18,9 +18,6 @@ const topicSent = document.querySelector(".topic-sent");
 const inputCreateTopic = document.querySelector("#input-create-topic");
 const textArea = document.querySelector("#text-area");
 
-console.log(inputCreateTopic);
-console.log(textArea);
-
 createTopicBtn.addEventListener("click", () => {
   createTopic.style.display = "flex";
   shareIdeas.style.display = "none";
@@ -40,4 +37,11 @@ submitBtn.addEventListener("click", () => {
 newTopicBtn.addEventListener("click", () => {
   createTopic.style.display = "flex";
   topicSent.style.display = "none";
+});
+
+//expand answers
+const expandAnswerBtn = document.querySelector(".expand-answer-btn");
+
+expandAnswerBtn.addEventListener("click", () => {
+  document.querySelector(".card-topic-expand").style.display = "block";
 });
