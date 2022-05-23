@@ -43,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
     border-bottom: 1px solid #ececec;
     h4 {
       font-family: v.$primary-font;
@@ -71,7 +71,7 @@
       margin-bottom: 2.5rem;
     }
   }
-  button {
+  .share-idea-btn {
     position: absolute;
     bottom: -15px;
     width: 133px;
