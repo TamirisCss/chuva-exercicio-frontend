@@ -1,0 +1,49 @@
+@use "variables" as v;
+
+.card-topic {
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem;
+  h4 {
+    font-family: v.$secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    color: v.$primary-text-color;
+  }
+  span {
+    font-family: v.$secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: v.$text-color-light;
+  }
+  p {
+    font-family: v.$secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 18px;
+    color: #4d4d4d;
+    margin: 1rem 0;
+  }
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .info-icon {
+    width: 19px;
+    height: 19px;
+  }
+  button {
+    width: 27px;
+    height: 19px;
+    img {
+      width: 14px;
+    }
+  }
+}
