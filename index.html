@@ -192,6 +192,47 @@
                   tópico
                 </button>
               </div>
+              <!--create topic-->
+              <div class="create-topic">
+                <p>
+                  Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
+                  autores!
+                </p>
+                <label for="input-create-topic">Assunto</label>
+                <input
+                  type="text"
+                  id="input-create-topic"
+                  required
+                  placeholder="Defina um tópico sucinto para notificar os autores..."
+                />
+                <label for="text-area">Conteúdo</label>
+                <textarea id="text-area"> </textarea>
+                <div class="btn-area">
+                  <div class="btn-area-icons">
+                    <img src="./images/Shape.png" alt="shape icon" />
+                    <img src="./images/Shape1.png" alt="shape icon" />
+                  </div>
+                  <button class="submitBtn" type="submit" value="Submit">Enviar</button>
+                </div>
+              </div>
+              <!--topic sent-->
+              <div class="topic-sent">
+                <div class="topic-sent-box">
+                  <h4>Seu tópico foi enviado com sucesso! :D</h4>
+                  <p>
+                    Agradecemos por sua contribuição, uma notificação será
+                    enviada ao seu email assim que seu tópico for respondido!
+                  </p>
+                  <a href="#">Descubra outros trabalhos!</a>
+                  <button class="newTopicBtn">criar novo tópico</button>
+                </div>
+                <div class="success-sent">
+                  <img src="./images/check-double.svg" alt="check icon" />
+                  <p>Aguardando feedback dos autores</p>
+                  <a href="#">Editar tópico</a>
+                </div>
+              </div>
+              <!--card topic-->
               <div class="card-topic">
                 <h4>Assunto da pergunta aparece aqui</h4>
                 <span>Carlos Henrique Santos</span>
