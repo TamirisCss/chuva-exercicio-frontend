@@ -168,7 +168,6 @@ button img {
 .header .header-text h3 {
   font-family: "Roboto";
   color: rgb(114, 92, 92);
-  font-style: normal;
   font-weight: 400;
 }
 .header .header-text p {
@@ -198,7 +197,6 @@ button img {
 }
 .header .header-profile .profile-infos {
   font-family: "Quicksand";
-  font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 18px;
@@ -410,7 +408,6 @@ button img {
   margin-bottom: 1.5rem;
 }
 .summary-panel p {
-  font-family: "Quicksand";
   font-size: 0.75rem;
   letter-spacing: 0.02em;
   color: #5C5C5C;
@@ -419,6 +416,7 @@ button img {
 }
 .summary-panel p #read-more {
   font-weight: bold;
+  font-size: 0.9rem;
   color: rgb(237, 120, 57);
   cursor: pointer;
 }
@@ -450,8 +448,6 @@ button img {
   margin-bottom: 1.5rem;
 }
 .discussions-panel .share-ideas p {
-  font-family: "Quicksand";
-  font-style: normal;
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 19px;

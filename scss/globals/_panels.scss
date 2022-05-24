@@ -24,7 +24,6 @@
 .summary-panel {
   margin-bottom: 1.5rem;
   p {
-    font-family: v.$secondary-font;
     font-size: 0.75rem;
     letter-spacing: 0.02em;
     color: v.$text-color-light;
@@ -32,6 +31,7 @@
     padding: 1rem;
     #read-more {
       font-weight: bold;
+      font-size: 0.9rem;
       color: v.$primary-text-color;
       cursor: pointer;
     }
@@ -66,8 +66,6 @@
       margin-bottom: 1.5rem;
     }
     p {
-      font-family: v.$secondary-font;
-      font-style: normal;
       font-weight: 400;
       font-size: 0.9rem;
       line-height: 19px;
