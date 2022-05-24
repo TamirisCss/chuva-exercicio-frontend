@@ -34,7 +34,6 @@
 
 .video-presentation {
   display: flex;
-  flex-basis: 100%;
   gap: 2rem;
   .video-img {
     img {
@@ -75,6 +74,27 @@
     }
     .text2 {
       margin-bottom: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .video-title {
+    padding: 1.5rem 0;
+    flex-direction: column;
+    h3 {
+      width: 100%;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  }
+  .video-presentation {
+    flex-direction: column;
+    .details-painel {
+      width: 100%;
+      .painel-texts {
+        height: auto;
+      }
     }
   }
 }
