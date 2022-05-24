@@ -1,11 +1,11 @@
 ## chuva-exercicio-frontend
 
 
--[Site URL](https://tamiriscss.github.io/chuva-exercicio-frontend/)
+[-Site URL](https://tamiriscss.github.io/chuva-exercicio-frontend/)
 
 
 
-### Construindo com:
+### Construido com:
 
 - HTML5
 - CSS3
